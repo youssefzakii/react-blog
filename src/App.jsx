@@ -24,10 +24,10 @@ const App = () => {
               path="/login"
               element={<Login setIsLoggedIn={setIsLoggedIn} />}
             />
+            <Route path="/" element={<Home />} />
             <Route path="/home" element={<Home />} />
             <Route path="/post-writing" element={<PostWriting />} />
             <Route path="/post-detail/:id" element={<PostDetail />} />{" "}
-            {/* تأكد من إضافة هذا المسار */}
           </Routes>
         </div>
       </div>
