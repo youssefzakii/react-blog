@@ -81,7 +81,7 @@ const PostWriting = () => {
         </div>
         <div>
           <label htmlFor="imageURL" className="block">
-            Image URL (اختياري)
+            Image URL (optional)
           </label>
           <input
             type="text"
